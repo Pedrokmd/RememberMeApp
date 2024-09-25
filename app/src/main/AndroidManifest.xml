@@ -13,6 +13,18 @@
         android:theme="@style/Theme.RememberMESetup"
         tools:targetApi="31">
         <activity
+            android:name=".caregiverhompageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverSignupLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,6 +32,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity">
+
+            <!-- Any additional configuration for the activity -->
         </activity>
     </application>
 

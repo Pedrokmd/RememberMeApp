@@ -2,4 +2,12 @@
     <string name="app_name">Remember ME setup</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="p1_q1"> I am a care taker</string>
+    <string name="p1_q2"> I am a patient</string>
+    <string name="p1_q3"> or</string>
+    <string name="p1_q4"> or</string>
+    <string name="p2_q1"> or</string>
+    <string name="p2_q2"> I don't have an account</string>
+    <string name="p2_q3"> or</string>
+    <string name="p2_q4"> I have an account</string>
 </resources>
