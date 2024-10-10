@@ -13,16 +13,22 @@
         android:theme="@style/Theme.RememberMESetup"
         tools:targetApi="31">
         <activity
-            android:name=".caregiverhompageActivity"
+            android:name=".PatientIntro"
             android:exported="false" />
         <activity
-            android:name=".CaregiverSignupLoginActivity"
+            android:name=".ViewAllPatients"
             android:exported="false" />
         <activity
-            android:name=".CaregiverActivity"
+            android:name=".PatientView"
             android:exported="false" />
         <activity
-            android:name=".SecondActivity2"
+            android:name=".PatientMedsManager"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverAboutPatient"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverHomepage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -32,10 +38,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".SecondActivity">
-
-            <!-- Any additional configuration for the activity -->
         </activity>
     </application>
 
